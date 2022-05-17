@@ -39,7 +39,7 @@ public class Periodico extends Escrito {
 	}
 
 	@Override
-	int palabrasTotales(int palabrasPagina) {
+	public int palabrasTotales(int palabrasPagina) {
 		int sol=0;
 		sol=this.getPaginas()*palabrasPagina*10;
 		return sol;
