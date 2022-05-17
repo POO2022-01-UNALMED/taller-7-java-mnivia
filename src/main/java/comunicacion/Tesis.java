@@ -28,8 +28,8 @@ public class Tesis extends Escrito {
 	public void setIdea(String idea) {
 		this.idea = idea;
 	}
-	public String[] getArgumentos() {//Cambio del tipo de retorno
-		return argumentos;
+	public int getArgumentos() {//Cambio del tipo de retorno
+		return argumentos.length;
 	}
 	public void setArgumentos(String [] argumentos) {
 		this.argumentos = argumentos;
@@ -75,7 +75,7 @@ public class Tesis extends Escrito {
 	@Override
 	public String toString() {
 		return this.getOrigen()+ "\n"+ this.getTitulo() + "\n"+ this.getAutor()+ "\n"+
-				   this.getPaginas()+"\n"+this.getIdea()+"\n"+this.getConclusion()+
+				   this.getPaginas()+"\n"+this.getIdea()+"\n"+this.getArgumentos()+"\n"+this.getConclusion()+
 				   "\n"+this.getReferencias();
 	}
 	
