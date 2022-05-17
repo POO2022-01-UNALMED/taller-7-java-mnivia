@@ -44,7 +44,8 @@ public class Fabula extends Escrito{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.getOrigen()+ "\n"+ this.getTitulo() + "\n"+ this.getAutor()+ "\n"+
+		   this.getPaginas()+"\n"+this.getEnsenanza();
 	}
 	
 	

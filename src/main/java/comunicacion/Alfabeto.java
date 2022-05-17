@@ -56,7 +56,7 @@ public class Alfabeto extends Pictograma{
 		for(String letra: letras) {
 			solucion += letra + ", ";			
 		}
-		return solucion;
+		return solucion.substring(0, solucion.length()-2);
 	}
 	
 	
