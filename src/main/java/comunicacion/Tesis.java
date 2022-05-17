@@ -28,8 +28,8 @@ public class Tesis extends Escrito {
 	public void setIdea(String idea) {
 		this.idea = idea;
 	}
-	public int getArgumentos() {//Cambio del tipo de retorno
-		return argumentos.length;
+	public String[] getArgumentos() {//Cambio del tipo de retorno
+		return argumentos;
 	}
 	public void setArgumentos(String [] argumentos) {
 		this.argumentos = argumentos;
